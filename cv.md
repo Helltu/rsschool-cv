@@ -25,3 +25,6 @@ During my university studies I have developed a program for automatic accounting
 
 ## Education
 Currently I have finished the first year of studies in Belarussian State University of Informatics and Radioelectronics on the faculty of Computer-Aided Design, speciality of Infrmational Systems and Technologies in business management.
+
+## English
+My current English level is B2 and I am thinking about getting higher levels by attending to courses.
