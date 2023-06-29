@@ -21,7 +21,7 @@ Hello, my name is Mathew and I am a junior software developer. I have minor expe
 * *StarUML*
 
 ## Work experience
-During my university studies I have developed a program for automatic accounting of library stock books.
+During my university studies I have developed a program for automatic accounting of library stock books in procedural programming using C++.
 
 ## Education
 Currently I have finished the first year of studies in Belarussian State University of Informatics and Radioelectronics on the faculty of Computer-Aided Design, speciality of Infrmational Systems and Technologies in business management.
