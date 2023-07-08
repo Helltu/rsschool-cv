@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
     <link rel="stylesheet" href="style.css">
     <title>Rsschool-cv-html</title>
 </head>
@@ -18,7 +18,7 @@
                 <h2><a href="#skills">Skills</a></h2>
             </div>
             <div class="header-link">
-                <h2><a href="#languages">Contacts</a></h2>
+                <h2><a href="#languages">Languages</a></h2>
             </div>
             <div class="header-link">
                 <h2><a href="#about-me">About&nbsp;me</a></h2>
@@ -34,11 +34,13 @@
             <div id="left-part">
                 <section class="small-left" id="avatar">
                     <img id="avatar" src="./Pictures/Avatar.png" alt="avatar">
-                    <h1>Mathew Korshow</h1>
-                    <h2>Junior Frontend Developer</h2>
+                    <div id="avatar-text">
+                        <h1>Mathew&nbsp;Korshow</h1>
+                        <h4>Junior&nbsp;Frontend&nbsp;Developer</h4>
+                    </div>
                 </section>
                 <section class="small-left" id="contacts">
-                    <h2><span class="title">Contacts</span></h2>
+                    <h2 class="title-left">Contacts</h2>
                     <ul class="no-marks">
                         <li><img class="icon" src="./Pictures/Email.png" alt="Email icon"> korsovm@gmail.com</li>
                         <li><img class="icon" src="./Pictures/Telegram.png" alt="Telegram icon"> @Heellty</li>
@@ -47,7 +49,7 @@
                     </ul>
                 </section>
                 <section class="small-left" id="skills">
-                    <h2><span class="title">Skills</span></h2>
+                    <h2 class="title-left">Skills</h2>
                     <ul>
                         <li>HTML</li>
                         <li>CSS</li>
@@ -57,7 +59,7 @@
                     </ul>
                 </section>
                 <section class="small-left" id="languages">
-                    <h2><span class="title">Contacts</span></h2>
+                    <h2 class="title-left">Languages</h2>
                     <ul>
                         <li>
                             <h3>English</h3>
@@ -80,7 +82,7 @@
             </div>
             <div id="right-part">
                 <section class="small-right" id="about-me">
-                    <h2><img class="icon" src="./Pictures/Person.png" alt="Person icon">About me</h2>
+                    <h2 class="title-right"><img class="icon" src="./Pictures/Person.png" alt="Person icon">About&nbsp;me</h2>
                     <p>Hello, my name is Mathew and I am a junior software developer. I have minor experience in
                         software development
                         and charting from my university and school studies. Currently I don't have any work expierience,
@@ -90,9 +92,8 @@
                         person and I am ready to work hard on any project provided to me.</p>
                 </section>
                 <section class="small-right" id="education">
-                    <img class="icon" src="./Pictures/Education.png" alt="Education icon">
-                    <h2>Education</h2>
-                    <ul class="no-marks">
+                    <h2 class="title-right"><img class="icon" src="./Pictures/Education.png" alt="Education icon">Education</h2>
+                    <ul>
                         <li>Belarusian State University of Informatics and Radioelectronics</li>
                         <li>Faculty of Computer-Aided Design</li>
                         <li>Years: 2022-2026</li>
@@ -101,21 +102,21 @@
                     </ul>
                 </section>
                 <section class="small-right" id="code">
-                    <img class="icon" src="./Pictures/Code.png" alt="Code icon">
-                    <h2>Code examples</h2>
-                    <p></p>
+                    <h2 class="title-right"><img class="icon" src="./Pictures/Code.png" alt="Code icon">Code&nbsp;examples</h2>
                 </section>
             </div>
         </main>
         <footer>
-            <section id="links">
-                <a href="https://github.com/Helltu"><img src="./Pictures/GitHub.png" alt="github logo"
-                        height="30px"></a>
-                <a href="https://rs.school/js/"><img src="./Pictures/RsschoolLogo.svg" alt="rsschool logo"
-                        height="30px"></a>
-            </section>
+            <div class="footer-link">
+                <a href="https://github.com/Helltu" title="Visit my GitHub!"><img src="./Pictures/GitHub.png" alt="github logo" class="icon"></a>
+            </div>
+            <div class="footer-link">
+                <a href="https://en.wikipedia.org/wiki/2023" title="What year is it? Hmm..."><h2>2023</h2></a>
+            </div>
+            <div class="footer-link">
+                <a href="https://rs.school/js/" title="Rsschool courses!"><img src="./Pictures/RsschoolLogo.svg" alt="rsschool logo" class="icon"></a>
+            </div>
         </footer>
     </div>
 </body>
-
 </html>
