@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet"
+        href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/tomorrow-night-blue.min.css">
     <title>Rsschool-cv-html</title>
 </head>
 
@@ -82,7 +84,8 @@
             </div>
             <div id="right-part">
                 <section class="small-right" id="about-me">
-                    <h2 class="title-right"><img class="icon" src="./Pictures/Person.png" alt="Person icon">About&nbsp;me</h2>
+                    <h2 class="title-right"><img class="icon" src="./Pictures/Person.png"
+                            alt="Person icon">About&nbsp;me</h2>
                     <p>Hello, my name is Mathew and I am a junior software developer. I have minor experience in
                         software development
                         and charting from my university and school studies. Currently I don't have any work expierience,
@@ -92,7 +95,8 @@
                         person and I am ready to work hard on any project provided to me.</p>
                 </section>
                 <section class="small-right" id="education">
-                    <h2 class="title-right"><img class="icon" src="./Pictures/Education.png" alt="Education icon">Education</h2>
+                    <h2 class="title-right"><img class="icon" src="./Pictures/Education.png"
+                            alt="Education icon">Education</h2>
                     <ul>
                         <li>Belarusian State University of Informatics and Radioelectronics</li>
                         <li>Faculty of Computer-Aided Design</li>
@@ -102,21 +106,57 @@
                     </ul>
                 </section>
                 <section class="small-right" id="code">
-                    <h2 class="title-right"><img class="icon" src="./Pictures/Code.png" alt="Code icon">Code&nbsp;examples</h2>
+                    <h2 class="title-right"><img class="icon" src="./Pictures/Code.png"
+                            alt="Code icon">Code&nbsp;examples</h2>
+                    <p>Multiples of 3 or 5 from CODEWARS: If we list all the natural numbers below 10 that are multiples
+                        of 3 or 5, we get 3, 5, 6 and 9.
+                        The sum of these multiples is 23.</p>
+                    <p>Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number
+                        passed in. Additionally, if the number is negative, return 0 (for languages that do have them).
+                    </p>
+                    <p>Note: If the number is a multiple of both 3 and 5, only count it once.</p>
+                    <div id="code-container">
+                        <pre>
+                        <code class="language-cpp">
+int solution(int number) 
+{
+    if(number&lt;=0) return 0;
+    else
+    {
+        int sum=0;
+        for(int i=0; i&lt;number; i++)
+        {
+            if(i&#37;3==0 || i&#37;5==0) sum+=i;
+        }
+        return sum;
+    }
+}
+                        </code>
+                        </pre>
+                    </div>
                 </section>
             </div>
         </main>
         <footer>
             <div class="footer-link">
-                <a href="https://github.com/Helltu" title="Visit my GitHub!"><img src="./Pictures/GitHub.png" alt="github logo" class="icon"></a>
+                <a href="https://github.com/Helltu" title="Visit my GitHub!"><img src="./Pictures/GitHub.png"
+                        alt="github logo" class="icon"></a>
             </div>
             <div class="footer-link">
-                <a href="https://en.wikipedia.org/wiki/2023" title="What year is it? Hmm..."><h2>2023</h2></a>
+                <a href="https://en.wikipedia.org/wiki/2023" title="What year is it? Hmm...">
+                    <h2>2023</h2>
+                </a>
             </div>
             <div class="footer-link">
-                <a href="https://rs.school/js/" title="Rsschool courses!"><img src="./Pictures/RsschoolLogo.svg" alt="rsschool logo" class="icon"></a>
+                <a href="https://rs.school/js/" title="Rsschool courses!"><img src="./Pictures/RsschoolLogo.svg"
+                        alt="rsschool logo" class="icon"></a>
             </div>
         </footer>
     </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
+
 </html>
